@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: url(../public/bgimage.webp);
+  background: url(../public/bgim.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
