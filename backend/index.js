@@ -20,7 +20,8 @@ const corsOption={
     origin:'http://localhost:3000',
     credentials:true
 };
-app.use(cors(corsOption)); 
+// app.use(cors(corsOption)); 
+app.use(cors());
 app.use(cors({
   origin: 'https://chatterchat-v8sn-ankaqolhn-kanishka-sakets-projects.vercel.app'
 }));
