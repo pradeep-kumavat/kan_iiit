@@ -17,14 +17,14 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chatterchat-v8sn-ankaqolhn-kanishka-sakets-projects.vercel.app',
     credentials:true
 };
-// app.use(cors(corsOption)); 
-app.use(cors());
-app.use(cors({
-  origin: 'https://chatterchat-v8sn-ankaqolhn-kanishka-sakets-projects.vercel.app'
-}));
+app.use(cors(corsOption)); 
+//app.use(cors());
+// app.use(cors({
+//   origin: 'https://chatterchat-v8sn-ankaqolhn-kanishka-sakets-projects.vercel.app'
+// }));
 
 //routes
 app.use("/api/v1/user", userRoute);
