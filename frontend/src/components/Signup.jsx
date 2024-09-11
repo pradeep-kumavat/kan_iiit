@@ -114,7 +114,7 @@ const Signup = () => {
           </div>
           <p className='text-center my-2 text-white'>Already have an account? <Link to="/login"> login </Link></p>
           <div>
-            <button type='submit' className='btn btn-block btn-sm mt-2 border border-slate-700 bg-blue-300'>Singup</button>
+            <button type='submit' className='btn btn-block btn-sm mt-2 border border-slate-700 bg-blue-300 text-black hover:text-white'>Singup</button>
           </div>
         </form>
       </div>
