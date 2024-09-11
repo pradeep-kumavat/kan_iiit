@@ -21,6 +21,9 @@ const corsOption={
     credentials:true
 };
 app.use(cors(corsOption)); 
+app.use(cors({
+  origin: 'https://chatterchat-v8sn-ankaqolhn-kanishka-sakets-projects.vercel.app'
+}));
 
 //routes
 app.use("/api/v1/user", userRoute);
